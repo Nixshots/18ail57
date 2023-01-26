@@ -4,11 +4,11 @@ global is_changed
 is_changed = True
 facts = [["vertebrate","duck"],["flying","duck"],["mammal","cat"]]
 
-def assert_fact(fact):
+def assert_fact(f):
     global facts
     global is_changed
-    if not fact in facts:
-        facts += [fact]
+    if not f in facts:
+        facts += [f]
         is_changed = True
 
 while is_changed:
@@ -20,5 +20,5 @@ while is_changed:
             assert_fact(["animal",A1[1]])
         if A1[0] == "vertebrate" and ["flying",A1[1]] in facts:
             assert_fact(["bird",A1[1]])
-
-print(facts)
+for i in facts:
+    print(i)
