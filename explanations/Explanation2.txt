@@ -1,0 +1,2 @@
+Best-First search is a searching algorithm used to find the shortest path which uses distance as a heuristic. The distance between the starting node and the goal node is taken as heuristics. It defines the evaluation function for each node n in the graph as f(n) = h(n) where h(n) is heuristics function.
+
