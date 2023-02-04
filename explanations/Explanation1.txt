@@ -1,1 +1,32 @@
+Possible viva questions
 
+1) Water jug problem using dfs 
+
+Recursion is often used to implement DFS because it allows the algorithm to follow a branching path of a tree or graph until it reaches the end (leaf node), and then backtrack to explore other paths.
+
+A dictionary can be used to store the visited nodes, so that the algorithm doesn't repeat the same path. This is particularly useful when working with graphs, as it helps to avoid loops.
+
+So, these two concepts can work together to implement an efficient and effective DFS algorithm.
+
+Q) whats a default dict? - defaultdict is a subclass of the built-in Python dict class. It's a dictionary that returns a default value for a nonexistent key.
+
+
+
+BFS	and DFS difference -
+1	Definition	BFS, stands for Breadth First Search.	
+DFS, stands for Depth First Search.
+
+2	Data structure	BFS uses Queue to find the shortest path.	
+DFS uses Stack to find the shortest path.
+
+3	Source	BFS is better when target is closer to Source.
+DFS is better when target is far from source.
+
+4	Suitablity for decision tree	As BFS considers all neighbour so it is not suitable for decision tree used in puzzle games.
+DFS is more suitable for decision tree. As with one decision, we need to traverse further to augment the decision. If we reach the conclusion, we won.
+
+5	Speed	BFS is slower than DFS.	
+DFS is faster than BFS.
+
+6	Time Complexity	Time Complexity of BFS = O(V+E) where V is vertices and E is edges.	
+Time Complexity of DFS is also O(V+E) where V is vertices and E is edges.
